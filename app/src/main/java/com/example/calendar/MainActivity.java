@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.date);
         textView.setText(text);
     }
-    public void checkday(int year, int month, int day){ //여기에서부터 좀 어려운데 파일 입출력이라고 파일을 저장하고 그걸 읽고 막 하는것이다.
+    public void checkday(int year, int month, int day){ //여기에서부터 좀 어려운데 파일 입출력이라고 파일을 저장하고 그걸 읽는 등등 역할을 수행한다.
         //여기부분은 유튜브, 블로그에 있는 코드들을 참고했다.
         name=year+"-"+month+"-"+day+".txt"; //안드로이드 내부에 저장할 텍스트 네임을 설정해주는것이다.
         FileInputStream fileInputStream=null; //변수 설정
