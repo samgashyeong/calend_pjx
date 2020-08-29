@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity {
         FileOutputStream fileOutputStream=null;
 
         try{
-            fileOutputStream=openFileOutput(readDay,MODE_ENABLE_WRITE_AHEAD_LOGGING); //이 넘은 나도 몰라요 구글링 해봐 ㅋ
+            fileOutputStream=openFileOutput(readDay,MODE_ENABLE_WRITE_AHEAD_LOGGING);
             String content=""; //지우는 함수(메소드)니깐 아무것도 없어야겠지?
             fileOutputStream.write((content).getBytes());
             fileOutputStream.close();
